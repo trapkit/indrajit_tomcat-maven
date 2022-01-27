@@ -1,1 +1,0 @@
-# integrate_ansible-jenkins-git-maven
