@@ -1,0 +1,8 @@
+---
+- hosts: tomcat
+  become: true
+  tasks:
+          - name: copy war file from jenkins instance to tomcat 
+            copy:
+                    src: /opt/playbooks/target/webapp.war
+                    dest: /opt/tomcat/apache-tomcat-10.0.16/webapps
