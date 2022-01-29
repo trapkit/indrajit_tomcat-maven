@@ -1,13 +1,13 @@
 <html>
 <head>
-<title>Hello, Welcome to my World!</title>
+<title>Hey, tomcat user!</title>
 </head>
 <body>
-	<h1>Hello, Welcome to my World!</h1>
+	<h1>Hello john, lets use tomcat!</h1>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
 	<p>
-		You are coming from 
+		Your public IP : 
 		<%= request.getRemoteAddr()  %></p>
 </body>
