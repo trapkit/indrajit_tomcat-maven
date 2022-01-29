@@ -5,7 +5,7 @@
 <body>
 	<h1>Hello john, lets use tomcat!</h1>
 	<p>
-		It is now
+		The time right now & the day is :
 		<%= new java.util.Date() %></p>
 	<p>
 		Your public IP : 
