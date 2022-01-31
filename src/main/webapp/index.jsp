@@ -4,6 +4,7 @@
 </head>
 <body>
 	<h1>Hello john, lets use tomcat!</h1>
+	<h1>Hey you will get some !!</h1>
 	<p>
 		The time right now & the day is :
 		<%= new java.util.Date() %></p>
